@@ -4,34 +4,21 @@
 自动填应聘网申表格的工具包
 
 #### 软件架构
-软件架构说明
+待补
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  手动安装：打开chrome://extensions/，把cv_helper_extension.crx拖进去
+2.  从应用商店安装：我已经在上传Chrome浏览器应用商店了，但是审核还没通过，所以暂时只能手动安装
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  写好JSON格式的文件。以下是大致格式，我后续补一个排版好看点的样例：
+```json
+{"照片路径": "","姓名":"","性别":"","身高":,"通讯地址":"","爱好/特长":"","应聘原因":"","自我介绍":"","奖励情况":"","期望年薪":}
+```
+2.  打开浏览器，进入网申表单页面，点击插件图标，上传JSON文件。内容会自动覆盖没有填内容的空文本框中。  
+目前仅在兴业银行上实现测试，仅支持直接输入文本（字符串或者数字）的形式。
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 欢迎交流！
